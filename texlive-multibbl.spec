@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/multibbl
+# catalog-date 2007-05-25 16:15:27 +0200
+# catalog-license lppl
+# catalog-version v1.1
 Name:		texlive-multibbl
 Version:	v1.1
 Release:	1
@@ -43,6 +49,7 @@ and title.
 #- source
 %doc %{_texmfdistdir}/source/latex/multibbl/multibbl.dtx
 %doc %{_texmfdistdir}/source/latex/multibbl/multibbl.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ and title.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
