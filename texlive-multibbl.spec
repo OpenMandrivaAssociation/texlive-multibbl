@@ -6,7 +6,7 @@
 # catalog-version v1.1
 Name:		texlive-multibbl
 Version:	v1.1
-Release:	3
+Release:	4
 Summary:	Multiple bibliographies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multibbl
