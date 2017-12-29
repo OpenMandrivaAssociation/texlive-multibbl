@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/multibbl
-# catalog-date 2007-05-25 16:15:27 +0200
-# catalog-license lppl
-# catalog-version v1.1
 Name:		texlive-multibbl
-Version:	v1.1
-Release:	11
+Version:	1.1
+Release:	1
 Summary:	Multiple bibliographies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multibbl
@@ -50,17 +44,3 @@ and title.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1-2
-+ Revision: 754188
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.1-1
-+ Revision: 719082
-- texlive-multibbl
-- texlive-multibbl
-- texlive-multibbl
-- texlive-multibbl
-
