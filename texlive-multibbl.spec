@@ -1,6 +1,6 @@
 Name:		texlive-multibbl
 Version:	1.1
-Release:	1
+Release:	2
 Summary:	Multiple bibliographies
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multibbl
