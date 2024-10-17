@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Multiple bibliographies
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/multibbl
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/multibbl
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/multibbl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/multibbl.doc.r%{version}.tar.xz
